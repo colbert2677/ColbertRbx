@@ -1,0 +1,8 @@
+# VS Code configuration
+.vscode/
+
+# Wally packages
+Packages/
+
+# Selene libraries
+roblox.yml
