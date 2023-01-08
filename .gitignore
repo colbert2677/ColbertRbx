@@ -6,3 +6,6 @@ Packages/
 
 # Selene libraries
 roblox.yml
+
+# Docs build
+build/
