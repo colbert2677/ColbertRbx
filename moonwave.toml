@@ -1,5 +1,9 @@
 gitSourceBranch = "main"
 
+[home]
+enabled = true
+includeReadme = true
+
 [[navbar.items]]
 href = "https://discord.gg/mhtGUS8"
 label = "Roblox OSS Discord"
