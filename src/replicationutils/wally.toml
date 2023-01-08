@@ -1,0 +1,11 @@
+[package]
+name = "colbert2677/replicationutils"
+description = "Utility for working with engine replication. Modified from tyridge77's work."
+version = "0.1.0"
+license = "MIT"
+authors = ["colbert2677"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Promise = "evaera/promise@4.0.0"
