@@ -1,0 +1,10 @@
+[package]
+name = "colbert2677/pagesutil"
+description = "Utility for working with Roblox pages objects."
+version = "1.0.0"
+license = "MIT"
+authors = ["colbert2677"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
