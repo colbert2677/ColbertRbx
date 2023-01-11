@@ -8,3 +8,7 @@ includeReadme = true
 href = "https://discord.gg/mhtGUS8"
 label = "Roblox OSS Discord"
 position = "right"
+
+[[classOrder]]
+section = "Loot Generation"
+classes = ["LootPlan", "SingleLootPlan", "MultiLootPlan"]
