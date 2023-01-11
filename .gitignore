@@ -9,3 +9,6 @@ roblox.yml
 
 # Docs build
 build/
+
+# Projects ignore
+*.project.json
