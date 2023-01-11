@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[541],{63891:e=>{e.exports=JSON.parse('{"sourceUrl":"https://github.com/colbert2677/ColbertRbx/blob/main","baseUrl":"/ColbertRbx/","classOrder":[{"section":"Loot Generation","classes":["LootPlan","SingleLootPlan","MultiLootPlan"]}],"apiCategories":[]}')}}]);
