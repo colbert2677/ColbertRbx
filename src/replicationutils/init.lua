@@ -162,7 +162,7 @@ else
 			handleExceptions = self.HandleExceptions
 		end
 
-		local promise = Promise.defer(function(resolve)
+		local promise = Promise.new(function(resolve)
 			local counter = object:GetAttribute(COUNTER_ATTRIBUTE)
 
 			if not counter then
@@ -170,10 +170,10 @@ else
 				counter = object:GetAttribute(COUNTER_ATTRIBUTE)
 			end
 
-			resolve(counter)
+			task.defer(resolve, counter)
 		end):andThen(function(counter)
 			return Promise.any({
-				Promise.defer(function(resolve)
+				Promise.new(function(resolve)
 					local replicatedCounter = ReplicatedStorage:GetAttribute(COUNTER_ATTRIBUTE) or 0
 					if replicatedCounter >= counter then
 						resolve()
