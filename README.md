@@ -3,6 +3,7 @@
 
 | Module | Dependency | Description |
 | -- | -- | -- |
-| [PagesUtil](https://colbert2677.github.io/ColbertRbx/api/PagesUtil) | `PagesUtil = "colbert2677/pagesutil@1.0.0"` | Utility for Roblox pages |
-| [ReplicationUtils](https://colbert2677.github.io/ColbertRbx/api/ReplicationUtils) | `ReplicationUtils = "colbert2677/replicationutils@0.1.0"` | Engine-rooted replication helper |
-| [Symbol](https://colbert2677.github.io/ColbertRbx/api/Symbol) | `Symbol = "colbert2677/symbol@1.0.0"` | Unique object |
+| [LootPlan](/ColbertRbx/api/LootPlan) | `LootPlan = "colbert2677/lootplan@1.0.0"` | Lightweight loot generation library |
+| [PagesUtil](/ColbertRbx/api/PagesUtil) | `PagesUtil = "colbert2677/pagesutil@1.0.0"` | Utility for Roblox pages |
+| [ReplicationUtils](/ColbertRbx/api/ReplicationUtils) | `ReplicationUtils = "colbert2677/replicationutils@1.0.0"` | Engine-rooted replication helper |
+| [Symbol](/ColbertRbx/api/Symbol) | `Symbol = "colbert2677/symbol@1.0.0"` | Unique object |
