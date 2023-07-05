@@ -1,5 +1,5 @@
 # ColbertRbx
- Collection of public code resources written or modified for Roblox. This is a heavily experimental repository primarily intended for my own use but also available for others to use as well. As ColbertRbx is my first dip into the open source contribution space, there might be a lot of bad practices including this mono-repository with all packages available as directories rather than separate repositories, bad use of semver, some unfinished works rather than release-ready packages (check ReplicationUtils as an example of how I ended up publishing a few versions with minimal changes between them) and other such issues.
+ Collection of public code resources written or modified for Roblox. This is a heavily experimental repository primarily intended for my own use but also available for others to use as well. As ColbertRbx is my first dip into the open source contribution space, there might be a lot of bad practices including this mono-repository with all packages available as directories rather than separate repositories, moonwave-incompatibile naming, bad use of semver, some unfinished works rather than release-ready packages (check ReplicationUtils as an example of how I ended up publishing a few versions with minimal changes between them) and other such issues.
 
 | Module | Dependency | Description |
 | -- | -- | -- |
