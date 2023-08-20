@@ -1,0 +1,10 @@
+[package]
+name = "colbert2677/symbol"
+description = "Unique object. No longer maintained; use other Symbol packages."
+version = "2.0.0"
+license = "MIT"
+authors = ["colbert2677"]
+realm = "shared"
+registry = "https://github.com/UpliftGames/wally-index"
+
+[dependencies]
