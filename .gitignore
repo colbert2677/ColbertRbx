@@ -9,5 +9,8 @@ roblox.yml
 build/
 
 # Rojo
-*.project.json
+/*.project.json
 sourcemap.json
+
+# Other
+private/
