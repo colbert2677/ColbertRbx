@@ -1,14 +1,18 @@
-# VS Code configuration
+# VS Code
 .vscode/
 
-# Wally packages
+# Wally
+DevPackages/
 Packages/
+ServerPackages/
 
-# Selene libraries
+# Selene
+roblox.toml
 roblox.yml
 
-# Docs build
+# moonwave
 build/
 
-# Projects ignore
+# Rojo
 *.project.json
+sourcemap.json
