@@ -1,11 +1,6 @@
 # VS Code
 .vscode/
 
-# Wally
-DevPackages/
-Packages/
-ServerPackages/
-
 # Selene
 roblox.toml
 roblox.yml
