@@ -126,7 +126,7 @@ MultiLootPlan.__index = MultiLootPlan.prototype
 	.Loot {{[string]: MultiLoot}} -- Loot dictionary (used in modifying loot and randomisation).
 	@within MultiLootPlan
 ]=]
-function MultiLootPlan.new(seed: number?, step: number?)
+function MultiLootPlan.new(seed: number, step: number)
 	local canStep = typeof(seed) == "number"
 
 	if typeof(step) ~= "number" or step < 0 then
@@ -260,7 +260,7 @@ function MultiLootPlan.prototype:IncreaseChance(name: string, chance: number)
 	if chance <= 0 then return end
 
 	local loot = self.Loot[name]
-	
+
 	if not loot then
 		error("No loot with name \"" .. name .. "\"")
 	end
@@ -291,7 +291,7 @@ function MultiLootPlan.prototype:DecreaseChance(name: string, chance: number)
 	if chance <= 0 then return end
 
 	local loot = self.Loot[name]
-	
+
 	if not loot then
 		error("No loot with name \"" .. name .. "\"")
 	end
@@ -337,7 +337,7 @@ end
 	@return MultiResults
 ]=]
 
-function MultiLootPlan.prototype:Roll(iterations: number?, luck: number?)
+function MultiLootPlan.prototype:Roll(iterations: number, luck: number)
 	if typeof(iterations) ~= "number" or iterations <= 0 then
 		iterations = 1
 	end

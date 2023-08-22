@@ -138,7 +138,7 @@ SingleLootPlan.__index = SingleLootPlan.prototype
 	._ListUpdated boolean -- If UpdateLootList calls should pass (used internally).
 	@within SingleLootPlan
 ]=]
-function SingleLootPlan.new(seed: number?, step: number?)
+function SingleLootPlan.new(seed: number, step: number)
 	local canStep = typeof(seed) == "number"
 
 	if typeof(step) ~= "number" or step < 0 then
@@ -396,13 +396,13 @@ end
 
 	```lua
 	local result = plan:Roll()
-	
+
 	if result ~= "Nothing" then
 		-- Handle a positive result
 	end
 	```
 ]=]
-function SingleLootPlan.prototype:Roll(luck: number?): string
+function SingleLootPlan.prototype:Roll(luck: number): string
 	if typeof(luck) ~= "number" or luck <= 0 then
 		luck = 1
 	end
@@ -438,6 +438,8 @@ function SingleLootPlan.prototype:Roll(luck: number?): string
 			aggregate += chance
 		end
 	end
+
+	return "???"
 end
 
 --[=[

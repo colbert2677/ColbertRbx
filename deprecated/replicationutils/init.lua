@@ -3,7 +3,7 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 
-local Promise = require(script.Parent.Promise)
+local Promise = require(script.Parent.Promise) :: any
 
 --[=[
 	Utility to help with replication assurances. Modified from tyridge77's
